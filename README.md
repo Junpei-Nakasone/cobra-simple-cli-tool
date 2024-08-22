@@ -1,6 +1,6 @@
-# My CLI Tool
+# Cobra Simple CLI
 
-My CLI Tool is a simple command-line interface (CLI) application built with Go and the Cobra library.
+Cobra Simple CLI is a simple command-line interface (CLI) application built with Go and the Cobra library.
 
 ## Features
 
@@ -18,7 +18,7 @@ My CLI Tool is a simple command-line interface (CLI) application built with Go a
 2. **Build the application**:
 
     ```sh
-    go build -o mycli .
+    go build -o cobra-simple-cli .
     ```
 
 ## Usage
@@ -28,7 +28,7 @@ After building the application, you can run the CLI tool using the following com
 - **Print the current day of the week**:
 
     ```sh
-    ./mycli dayofweek
+    ./cobra-simple-cli dayofweek
     ```
 
 ## Docker
@@ -38,12 +38,12 @@ You can also run the CLI tool inside a Docker container.
 1. **Build the Docker image**:
 
     ```sh
-    docker build -t mycli .
+    docker build -t cobra-simple-cli .
     ```
 
 2. **Run the Docker container**:
 
     ```sh
-    docker run --rm mycli dayofweek
+    docker run --rm cobra-simple-cli dayofweek
     ```
 

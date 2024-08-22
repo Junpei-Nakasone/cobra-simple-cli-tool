@@ -17,7 +17,7 @@ COPY . .
 RUN go install github.com/spf13/cobra-cli@latest
 
 # Build the Go app
-RUN go build -o mycli .
+RUN go build -o cobra-simple-cli .
 
 # Command to run the executable
-ENTRYPOINT ["/app/mycli"]
+ENTRYPOINT ["/app/cobra-simple-cli"]

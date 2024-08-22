@@ -1,4 +1,4 @@
-module github.com/junpeinakasone/mycli
+module github.com/junpeinakasone/cobra-simple-cli
 
 go 1.19
 
