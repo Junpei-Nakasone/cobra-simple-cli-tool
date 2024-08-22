@@ -11,7 +11,7 @@ import (
 var rootCmd = &cobra.Command{
     Use:   "mycli",
     Short: "My CLI tool",
-    Long:  `A longer description of your CLI tool.`,
+    Long:  `This is just simple CLI tool for demo use.`,
     Run: func(cmd *cobra.Command, args []string) {
         fmt.Println("Hello from my CLI tool!")
     },
